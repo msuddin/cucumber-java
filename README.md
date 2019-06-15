@@ -11,6 +11,7 @@ Answer: To get a simple Cucumber sample project up and running
 * Notice that the main application is in the main/test directory
 
 # Instructions on running
+From the root directory of the project, run the following command:
 ```
-Run either the 'RunAllTest' or 'RunSmokeTest' class to run the tests
+./gradlew test --rerun-tasks
 ```
